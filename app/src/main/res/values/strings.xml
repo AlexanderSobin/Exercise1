@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Exercise1</string>
+    <string name="app_name">Super useful application</string>
     <string name="edit_text_hint">Enter your message</string>
     <string name="btn_preview_text">Preview</string>
+    <string name="btn_about_text">About me</string>
     <string name="preview_action_email">send email</string>
     <string name="email_address">example@gmail.com</string>
     <string name="email_subject">Testing my application</string>

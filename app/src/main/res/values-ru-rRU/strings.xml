@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Упражнение1</string>
+    <string name="app_name">Очень полезное приложение</string>
     <string name="edit_text_hint">Введите сообщение</string>
     <string name="btn_preview_text">Предпросмотр</string>
+    <string name="btn_about_text">Обо мне</string>
     <string name="preview_action_email">Отправить по эл. почте</string>
     <string name="email_address">example@gmail.com</string>
     <string name="email_subject">Тестирование приложения</string>

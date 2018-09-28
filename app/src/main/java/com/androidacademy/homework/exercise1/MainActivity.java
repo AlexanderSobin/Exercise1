@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         final EditText message = findViewById(R.id.edit_text);
         final Button btnPreview = findViewById(R.id.btn_preview);
+        final Button btnAbout = findViewById(R.id.btn_about);
 
         btnPreview.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -22,9 +23,20 @@ public class MainActivity extends AppCompatActivity {
                 openPreviewActivity(message.getText().toString());
             }
         });
+
+        btnAbout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAboutActivity();
+            }
+        });
     }
 
     private void openPreviewActivity(String text) {
         PreviewActivity.startPreviewActivity(this, text);
+    }
+
+    private void openAboutActivity() {
+        AboutActivity.startAboutActivity(this);
     }
 }
